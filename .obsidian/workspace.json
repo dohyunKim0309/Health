@@ -1,0 +1,270 @@
+{
+  "main": {
+    "id": "39c481408ed1a5ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ef62d127c73811b",
+        "type": "tabs",
+        "dimension": 35.12396694214876,
+        "children": [
+          {
+            "id": "8abcc0a5a27367bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "수정사항 및 피드백"
+            }
+          },
+          {
+            "id": "f8204c6b4327267c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. WIKI/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3983c0bbfe8ba9fa",
+        "type": "tabs",
+        "dimension": 64.87603305785123,
+        "children": [
+          {
+            "id": "f5368a89abfa88c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "f9e9e5619461748a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "24185a8623e86bcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0b7d0b253a615ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17276ccc5fc2a4d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "cfd4af7a2da7fd7f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "df117cfecc5b1d0c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 250.5
+  },
+  "right": {
+    "id": "26fcc3d121bb056f",
+    "type": "split",
+    "children": [
+      {
+        "id": "310d3f9e5eb93b6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d01e6f9a89321d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "수정사항 및 피드백 의 백링크"
+            }
+          },
+          {
+            "id": "d2560eb5e0137237",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "수정사항 및 피드백 의 나가는 링크"
+            }
+          },
+          {
+            "id": "de85b66ef17f0644",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "affdc3fb74ff7b1b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "4a52f55ed15ef74e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "수정사항 및 피드백 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "8abcc0a5a27367bf",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "2. WIKI/tags.md",
+    "0. DONOTTOUCH/Medical LLM Wiki 업데이트 후보(0423).md",
+    "CLAUDE_0423_1st.md",
+    "0. DONOTTOUCH/CLAUDE_0423_1st.md",
+    "0. DONOTTOUCH/수정사항 및 피드백.md",
+    "2. WIKI/index.md",
+    "2. WIKI/concepts/il-4-and-il-13.md",
+    "2. WIKI/concepts/th2-inflammation.md",
+    "2. WIKI/concepts/autonomic-nervous-system.md",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/'나'라는 존재에 대한 가장 소름 돋는 착각 (우리는 조종당하고 있다).md",
+    "2. WIKI/protocols/sleep-hygiene-protocol.md",
+    "2. WIKI/concepts/sleep-apnea.md",
+    "2. WIKI/concepts/atopic-dermatitis-mental-health.md",
+    "1. RAW/1.0. pending",
+    "2. WIKI/concepts/deep-work.md",
+    "2. WIKI/concepts/lucid-dreaming.md",
+    "2. WIKI/concepts/leaky-gut.md",
+    "2. WIKI/concepts/atopic-dermatitis.md",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/The microbiome in atopic dermatitis - Dr. Heidi Kong.md",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/How to EXERCISE with ECZEMA and TSW.md",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/Aspects of AD that Don't Get Enough Attention.md",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/!Microbiota-gut-brain axis in health and disease- From mice to men.md",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/말초 신경의 자극을 통해서 뇌기능 조절이 가능하다?! 침의 과학적인 효능 분석! (한국한의학연구원 김형준 박사).md",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/Neuroscience Confirms- This One Behavior Quietly Weakens Your Brain.md",
+    "1. RAW/1.1. ingested",
+    "parasympathetic-nervous-system.md",
+    "2. WIKI/protocols",
+    "2. WIKI/personal",
+    "2. WIKI/concepts",
+    "0. DONOTTOUCH",
+    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts",
+    "1. RAW/1.1. ingested/1.1.1. papers",
+    "9. STRUCTURE",
+    "2. WIKI"
+  ]
+}
