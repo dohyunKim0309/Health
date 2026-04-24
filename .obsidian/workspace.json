@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "file": "2.WIKI/concepts/active-inference-and-chronic-pain.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "수정사항 및 피드백"
+              "title": "active-inference-and-chronic-pain"
             }
           },
           {
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. WIKI/index.md",
+                "file": "2.WIKI/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "file": "2.WIKI/concepts/active-inference-and-chronic-pain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "수정사항 및 피드백 의 백링크"
+              "title": "active-inference-and-chronic-pain 의 백링크"
             }
           },
           {
@@ -159,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "file": "2.WIKI/concepts/active-inference-and-chronic-pain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "수정사항 및 피드백 의 나가는 링크"
+              "title": "active-inference-and-chronic-pain 의 나가는 링크"
             }
           },
           {
@@ -202,13 +202,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0. DONOTTOUCH/수정사항 및 피드백.md",
+                "file": "2.WIKI/concepts/active-inference-and-chronic-pain.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "수정사항 및 피드백 의 개요"
+              "title": "active-inference-and-chronic-pain 의 개요"
             }
           }
         ]
@@ -231,40 +231,40 @@
   },
   "active": "8abcc0a5a27367bf",
   "lastOpenFiles": [
+    "0.DONOTTOUCH/수정사항 및 피드백.md",
     "CLAUDE.md",
-    "2. WIKI/tags.md",
-    "0. DONOTTOUCH/Medical LLM Wiki 업데이트 후보(0423).md",
+    "2.WIKI/tags.md",
+    "0.DONOTTOUCH/Medical LLM Wiki 업데이트 후보(0423).md",
     "CLAUDE_0423_1st.md",
-    "0. DONOTTOUCH/CLAUDE_0423_1st.md",
-    "0. DONOTTOUCH/수정사항 및 피드백.md",
-    "2. WIKI/index.md",
-    "2. WIKI/concepts/il-4-and-il-13.md",
-    "2. WIKI/concepts/th2-inflammation.md",
-    "2. WIKI/concepts/autonomic-nervous-system.md",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/'나'라는 존재에 대한 가장 소름 돋는 착각 (우리는 조종당하고 있다).md",
-    "2. WIKI/protocols/sleep-hygiene-protocol.md",
-    "2. WIKI/concepts/sleep-apnea.md",
-    "2. WIKI/concepts/atopic-dermatitis-mental-health.md",
-    "1. RAW/1.0. pending",
-    "2. WIKI/concepts/deep-work.md",
-    "2. WIKI/concepts/lucid-dreaming.md",
-    "2. WIKI/concepts/leaky-gut.md",
-    "2. WIKI/concepts/atopic-dermatitis.md",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/The microbiome in atopic dermatitis - Dr. Heidi Kong.md",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/How to EXERCISE with ECZEMA and TSW.md",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/Aspects of AD that Don't Get Enough Attention.md",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/!Microbiota-gut-brain axis in health and disease- From mice to men.md",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/말초 신경의 자극을 통해서 뇌기능 조절이 가능하다?! 침의 과학적인 효능 분석! (한국한의학연구원 김형준 박사).md",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts/Neuroscience Confirms- This One Behavior Quietly Weakens Your Brain.md",
-    "1. RAW/1.1. ingested",
+    "0.DONOTTOUCH/CLAUDE_0423_1st.md",
+    "2.WIKI/index.md",
+    "2.WIKI/concepts/il-4-and-il-13.md",
+    "2.WIKI/concepts/th2-inflammation.md",
+    "2.WIKI/concepts/autonomic-nervous-system.md",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts/'나'라는 존재에 대한 가장 소름 돋는 착각 (우리는 조종당하고 있다).md",
+    "2.WIKI/protocols/sleep-hygiene-protocol.md",
+    "2.WIKI/concepts/sleep-apnea.md",
+    "2.WIKI/concepts/atopic-dermatitis-mental-health.md",
+    "1.RAW/1.0.pending",
+    "2.WIKI/concepts/deep-work.md",
+    "2.WIKI/concepts/lucid-dreaming.md",
+    "2.WIKI/concepts/leaky-gut.md",
+    "2.WIKI/concepts/atopic-dermatitis.md",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts/The microbiome in atopic dermatitis - Dr. Heidi Kong.md",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts/How to EXERCISE with ECZEMA and TSW.md",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts/Aspects of AD that Don't Get Enough Attention.md",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts/!Microbiota-gut-brain axis in health and disease- From mice to men.md",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts/말초 신경의 자극을 통해서 뇌기능 조절이 가능하다?! 침의 과학적인 효능 분석! (한국한의학연구원 김형준 박사).md",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts/Neuroscience Confirms- This One Behavior Quietly Weakens Your Brain.md",
+    "1.RAW/1.1.ingested",
     "parasympathetic-nervous-system.md",
-    "2. WIKI/protocols",
-    "2. WIKI/personal",
-    "2. WIKI/concepts",
-    "0. DONOTTOUCH",
-    "1. RAW/1.1. ingested/1.1.2. youtube-transcripts",
-    "1. RAW/1.1. ingested/1.1.1. papers",
+    "2.WIKI/protocols",
+    "2.WIKI/personal",
+    "2.WIKI/concepts",
+    "0.DONOTTOUCH",
+    "1.RAW/1.1.ingested/1.1.2.youtube-transcripts",
+    "1.RAW/1.1.ingested/1.1.1.papers",
     "9. STRUCTURE",
-    "2. WIKI"
+    "2.WIKI"
   ]
 }

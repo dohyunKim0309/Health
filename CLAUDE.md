@@ -11,11 +11,11 @@ Claude maintains the wiki. The human curates sources, asks questions, and guides
 ## Folder structure
 
 ```
-0. DONOTTOUCH        -- (immutable -- never modify these)
-1. RAW/              -- source documents (immutable -- never modify these)
-   1.0. pending   -- Non-ingested source documents, ingest these
-   1.1. ingested  -- Ingested source documents
-2. WIKI/
+0.DONOTTOUCH        -- (immutable -- never modify these)
+1.RAW/              -- source documents (immutable -- never modify these)
+   1.0.pending   -- Non-ingested source documents, ingest these
+   1.1.ingested  -- Ingested source documents
+2.WIKI/
   concepts/       -- general medical/biological knowledge
                      (diseases, mechanisms, drugs, nutrients, etc.)
   personal/       -- personal health data, symptoms, lab results, history
@@ -49,9 +49,9 @@ All index.md tags must be in `2. WIKI/tags.md`.
 
 ## Ingest workflow
 
-When the user adds a new source to `1. RAW/1.0. pending/` and asks you to ingest it:
+When the user adds a new source to `1.RAW/1.0.pending/` and asks you to ingest it:
 
-1. Read `2. WIKI/index.md` (full)
+1. Read `2.WIKI/index.md` (full)
 2. Read the new source document (once)
 3. For research papers, summarize in PICO form (Population, Intervention, Comparison, Outcome) before free-form discussion
 4. **Discover relevant existing pages** (see "Relation discovery" below)
@@ -63,8 +63,8 @@ When the user adds a new source to `1. RAW/1.0. pending/` and asks you to ingest
     - Update concept pages where the new source adds, refines, or contradicts
     - Before creating a new page, search existing pages' `Aliases` field for synonyms. Medical terms have many aliases (e.g. "myocardial infarction" / "MI" / "heart attack") — do not create duplicate pages
 9. Add wiki-links (`[[page-name]]`) to connect related pages
-10. Update `2. WIKI/index.md` — only entries for new/changed pages
-11. Append an entry to `2. WIKI/log.md` with the date, source name, and what changed
+10. Update `2.WIKI/index.md` — only entries for new/changed pages
+11. Append an entry to `2.WIKI/log.md` with the date, source name, and what changed
 
 A single source may touch 10–15 wiki pages. That is normal. What is NOT normal: re-reading the entire raw/ folder for "completeness."
 
@@ -130,7 +130,7 @@ Trust the wiki. Escalate to raw only on explicit triggers:
 
 ## Index format
 
-`2. WIKI/index.md` is a single file listing every wiki page. Format per entry:
+`2.WIKI/index.md` is a single file listing every wiki page. Format per entry:
 
 ```markdown
 - [[lp-a]] — Lipoprotein(a), genetic cardiovascular risk marker
@@ -245,7 +245,7 @@ Tier B = blogs, forums, content farms. Single-use only, never filed.
 
 When the user asks a question:
 
-1. Read `2. WIKI/index.md` first to find relevant pages (match on one-liners AND tags)
+1. Read `2.WIKI/index.md` first to find relevant pages (match on one-liners AND tags)
 2. Read those pages and synthesize an answer
 3. Cite specific wiki pages in your response
 4. If a cited page's `Caveats` field lists the user's question topic → read the raw source before answering
@@ -291,14 +291,14 @@ When the user asks you to lint or audit the wiki:
 
 ## Rules
 
-- Never modify anything in the `0. DONOTTOUCH/`,  `1. RAW/` folder
-- On ingest request, scan only `1. RAW/1.0. pending/`.
-- After ingest is complete and user has moved the file to `1. RAW/1.1. ingested/`, 
+- Never modify anything in the `0.DONOTTOUCH/`,  `1.RAW/` folder
+- On ingest request, scan only `1.RAW/1.0.pending/`.
+- After ingest is complete and user has moved the file to `1.RAW/1.1.ingested/`, 
   log.md records the move.
 - Before ingesting a new file, check log.md for filename match 
   (guards against user forgetting to move after previous ingest).
 - Never auto-move files from pending to ingested. User owns the move.
-- Always update `2. WIKI/index.md` and `2. WIKI/log.md` after changes
+- Always update `2.WIKI/index.md` and `2.WIKI/log.md` after changes
 - Keep page names lowercase with hyphens (e.g. `lp-a.md`, `vitamin-d.md`)
 - Write in clear, plain language
 - Preserve technical terms and their definitions — do not over-simplify medical terminology; link to a glossary page instead
